@@ -8,7 +8,7 @@ string? inputNum = Console.ReadLine();//??"0";
 //Проверяем, чтобы данные были не пустыми   
 if (inputNum != null)
 {
-    // Парсим введенное число
+    // Парсим введенное число 
     // int num = int.Parse(inputNum);
     // Находим квадрат числа
     // int res = num*num;
