@@ -24,12 +24,12 @@ void Variant2()
 
 void Variant3()
 {
-    Console.WriteLine("Enter num:");
+    Console.WriteLine("Enter num:");    // Вводим число
     int num = int.Parse(Console.ReadLine());
 
-    if (num >= 100 && num < 1000)
+    if (num >= 100 && num < 1000)   // Проверяем входит ли число в диапозон нужный
     {
-        int secDig = (num / 10) % 10;
+        int secDig = (num / 10) % 10;   //Проводим преобразование. Делим на 10, а затем остаток от деления на 10
         Console.WriteLine("vtoroe chislo: " + secDig);
     }
     else

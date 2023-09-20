@@ -24,6 +24,9 @@
 
 void Variant2()
 {
+
+// Создаем словарь проверяющий цифры дней с названиями
+
     Dictionary<int, string> week = new Dictionary<int, string>
         {
             {1, "Monday"},
@@ -35,13 +38,19 @@ void Variant2()
             {7, "Sunday"}
         };
 
+// Вводим число
+
     Console.WriteLine("Enter weeks num:");
     int dayWeek = int.Parse(Console.ReadLine() ?? "0");
 
+// Проверяем словарь 
+
     if (week.ContainsKey(dayWeek))
     {
-        string dayName = week[dayWeek];
-        bool isWeekend = (dayWeek == 6 || dayWeek == 7);
+        string dayName = week[dayWeek];     // Получаем название дня недели по числу
+        bool isWeekend = (dayWeek == 6 || dayWeek == 7);    // Проверяем, является ли день недели выходным
+
+// Выводим информацию о дне недели
 
         if (isWeekend)
         {
