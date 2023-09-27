@@ -40,7 +40,7 @@ int res = QuterTest(x,y);
 PrintResult("Point is in " + res );
 */
 
-/* Maxim
+// Maxim
 int ReadData()
 {
     Console.Write("Enter num of quarter: ");
@@ -59,4 +59,3 @@ string PointIndent(int quarterNum)
 int quarterNum = ReadData();
 
 Console.WriteLine(PointIndent(quarterNum));
-*/
