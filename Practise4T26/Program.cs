@@ -3,20 +3,20 @@
 
 // Ivan
 
-int ReadData(string msg)
-{
-    Console.WriteLine(msg);
-    int num = int.Parse(Console.ReadLine() ?? "0");
-    return num;
-}
+// int ReadData(string msg)
+// {
+//     Console.WriteLine(msg);
+//     int num = int.Parse(Console.ReadLine() ?? "0");
+//     return num;
+// }
 
-int numLength(int n)
-{
-    return Convert.ToInt32(Math.Log(n, 10) + 1);
-}
+// int numLength(int n)
+// {
+//     return Convert.ToInt32(Math.Log(n, 10) + 1);
+// }
 
-int n = ReadData("Enter num");
-Console.WriteLine("Length of num " + n + " is : " + numLength(n));
+// int n = ReadData("Enter num");
+// Console.WriteLine("Length of num " + n + " is : " + numLength(n));
 
 // Anastasiia
 
