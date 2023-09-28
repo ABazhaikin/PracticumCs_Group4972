@@ -7,7 +7,7 @@
     return number;
 }
 
-// Считает длинну числа
+
 int digiSum(int number)
 {
     int sum = 0;
