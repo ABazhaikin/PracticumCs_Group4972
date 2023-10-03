@@ -32,18 +32,18 @@ int[] SwapNewArray(int[] arr)
     return outArr;
 }
 
-void SwaArray(int[] arr)
-{
-    // int bufferElement = 0;
-    for (int i = 0; i < arr.Length / 2; i++)
-    {
-        (arr[arr.Length - 1 - i],arr[i])=(arr[i],arr[arr.Length - 1 - i]);
+// void SwapArray(int[] arr)
+// {
+//     // int bufferElement = 0;
+//     for (int i = 0; i < arr.Length / 2; i++)
+//     {
+//         (arr[arr.Length - 1 - i],arr[i])=(arr[i],arr[arr.Length - 1 - i]);
 
-        // bufferElement = arr[arr.Length - 1 - i];
-        // arr[arr.Length - 1 - i] = arr[i];
-        // arr[i]=bufferElement;
-    }
-}
+//         // bufferElement = arr[arr.Length - 1 - i];
+//         // arr[arr.Length - 1 - i] = arr[i];
+//         // arr[i]=bufferElement;
+//     }
+// }
 
 int[] arr = GenerateRndArray(15, 1, 100);
 PrintArray("Massive is ", arr);
