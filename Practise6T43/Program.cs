@@ -13,7 +13,7 @@ Console.WriteLine("Enter k1, b1, k2 and b2 for 1st and 2nd lines:");
         double k2 = double.Parse(Console.ReadLine()??"0");
 
         // Находим значение x, при котором прямые пересекаются
-        double x = (b2 - b1) / (k1 - k2);
+        double x = (b1 - b2) / (k2 - k1);
 
         // Находим значение y для найденного x
         double y = k1 * x + b1;
