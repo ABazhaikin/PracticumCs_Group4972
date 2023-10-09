@@ -56,4 +56,5 @@ int columns = ReadData("Enter columns: ");
 int[,] arr2D = Fill2DArray(row, columns, 100, 10);
 
 print2DArray(arr2D);
+
 print2DArrayColor(arr2D);
